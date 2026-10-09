@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-brand-primary: #FF6B35;
+  --color-brand-deep: #E95420;
+  --color-brand-cream: #FFF8F1;
+  --color-brand-charcoal: #202124;
+  --color-brand-muted: #777777;
+  --color-brand-border: #EAEAEA;
+  --color-brand-success: #238636;
+  --color-brand-error: #D93025;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FFF8F1;
+  color: #202124;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Tabular numerals for prices and counts */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

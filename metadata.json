@@ -1,0 +1,6 @@
+{
+  "name": "Campus Bite — College Food Ordering Platform",
+  "description": "Campus Bite is a modern, student-focused food ordering platform delivering campus favorites, quick canteen snacks, combos, and fresh refreshments at Silver Oak University.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
